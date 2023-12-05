@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+    color: #ffffff;
+}
+
+.container {
+    position: relative;
+}
+
+.background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url('jogo1/fundo3.jpg');
+    filter: blur(5px) brightness(70%);
+    transform: scale(1.05);
+}
+
+.texto {
+    display: flex;
+    position: absolute;
+    margin-left: 4%;
+    margin-top: 4%;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    max-width: 80%;
+}
+
+.imgjogo img {
+    margin-top: 20%;
+    margin-left: 20%;
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+
+.tjogo {
+    font-size: 42px;
+}
+
+.djogo {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.djogo2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.demo {
+    width: 215px;
+    text-align: center;
+    background-color: #191970;
+    border-radius: 10px;
+    margin-top: 18px;
+    margin-left: 15%;
+    font-size: 32px;
+}
+
+#prints {
+    margin-top: 38%;
+}
+
+#prints img {
+    border-radius: 10%;
+    position: flex;
+    margin-left: 13%;
+    margin-top: 5%;
+    transform: scale(1.1);
+}
+
+#sobre {
+    position: relative;
+    left: 4%;
+    margin-top: 50px;
+    padding: 2%;
+    max-height: 100%;
+    width: 85%;
+    height: auto;
+    overflow: hidden;
+    box-shadow: 0 0 8px white;
+}
+
+#logosite {
+    position: relative;
+    left: 115px;
+    margin-top: 10px;
+    max-height: 75px;
+    max-width: 60px;
+}
+
+.videojogo {
+    width: auto;
+    height: auto;
+    margin-left: 11%;
+}
+
+.att {
+    position: relative;
+    border-bottom: 1px solid whitesmoke;
+    padding: 0;
+    margin-left: 22px;
+    margin-right: 22px;
+    font-size: 22pt;
+}
+
+.txtatt {
+    left: 22px;
+    font-family: cursive;
+    position: relative;
+    font-size: 15px;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.dtatt {
+    padding-top: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    margin-right: 22px;
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+    max-width: 92%;
+    padding-top: 50px;
+    color: #FFF;
+}
+
+.footer {
+    opacity: 0.5;
+    border-top: 1px solid whitesmoke;
+    width: 100%;
+}
+
+.rodape {
+    text-align: right;
+}
+
+.contato {
+    margin-top: 1%;
+    margin-bottom: 2%;
+    height: 38px;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 1100px) {
+    .texto {
+        display: block;
+        margin-top: 0%;
+    }
+
+    .imgjogo img {
+        margin-top: 5%;
+        margin-left: 25%;
+        transform: scale(1.1);
+        border-radius: 10px;
+    }
+
+    .djogo {
+        font-size: 16px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .demo {
+        margin-left: 23%;
+    }
+
+    #prints {
+        margin-top: 150vh;
+    }
+
+    #prints img {
+        margin-left: 10%;
+    }
+
+    .videojogo {
+        width: 98%;
+        margin-left: 0%;
+    }
+}
