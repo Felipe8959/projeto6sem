@@ -174,7 +174,8 @@ body {
     }
 
     #prints img {
-        margin-left: 10%;
+        margin-left: 7%;
+        transform: scale(1);
     }
 
     .videojogo {
