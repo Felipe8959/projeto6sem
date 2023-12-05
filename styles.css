@@ -161,6 +161,10 @@ body {
         border-radius: 10px;
     }
 
+    #logosite {
+        left: 150px;
+    }
+
     .tjogo {
         text-align: center;
     }
